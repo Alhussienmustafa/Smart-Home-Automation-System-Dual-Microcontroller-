@@ -1,0 +1,36 @@
+#ifndef TIMER2_CONFIG_H_
+#define TIMER2_CONFIG_H_
+
+#include "../../../LIB/std_types.h"
+
+typedef enum{
+    TIMER2_NORMAL,
+    TIMER2_CTC,
+    TIMER2_FAST_PWM,
+    TIMER2_PHASE_CORRECT_PWM
+}TIMER2_MODE_SELECT;
+
+typedef enum{
+    OC2_DISCONNECTED,
+    TOGGLE_OC2,
+    CLEAR_OC2,
+    SET_OC2
+}TIMER2_CTC_MODE_SELECT;
+
+typedef enum{
+    T2_NON_INVERTING,
+    T2_INVERTING
+}TIMER2_PWM_MODE_SELECT;
+
+typedef enum{
+    T2_NO_CLOCK,
+    T2_NO_PRESCALER,
+    T2_PRESCALER_8,
+    T2_PRESCALER_32,
+    T2_PRESCALER_64,
+    T2_PRESCALER_128,
+    T2_PRESCALER_256,
+    T2_PRESCALER_1024
+}TIMER2_CLOCK_SELECT;
+
+#endif /* TIMER2_CONFIG_H_ */
