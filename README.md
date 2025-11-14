@@ -18,7 +18,7 @@ Smart Home Automation System (Dual Microcontroller)
  3.1 Lights (LEDs) Menu: Allows the user to control the light brightness using **PWM (Pulse Width Modulation)**, enabling adjustable dimming levels.
  3.2 Fans (Motors) Menu: Allows the user to manually control the **ON/OFF status** and **speed** (Low/Medium/High) of the cooling fans, also via PWM.
  
- 4 Environmental Sensing and Automatic Control
+ 4. Environmental Sensing and Automatic Control
  The system utilizes sensors for autonomous environmental management:
  4.1 Temperature Sensor: Reads the current room temperature.
  4.2 Smoke Sensor: Monitors for potential fire or smoke hazards.
